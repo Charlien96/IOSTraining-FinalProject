@@ -9,8 +9,8 @@ import Foundation
 
 class AllHeroesViewModel {
     
-    weak var delegate: RefreshData?
-    init(delegate: RefreshData) {
+    weak var delegate: AllHeroesRefreshData?
+    init(delegate: AllHeroesRefreshData) {
         self.delegate = delegate
     }
     var networkManager = NetworkManager()

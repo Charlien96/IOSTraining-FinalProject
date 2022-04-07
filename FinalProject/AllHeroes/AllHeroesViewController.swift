@@ -17,9 +17,6 @@ class AllHeroesViewController: UIViewController, UITableViewDelegate {
         allHeroesTableView.dataSource = self
         allHeroesTableView.delegate = self
         allHeroesViewModel = AllHeroesViewModel(delegate: self)
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
         allHeroesViewModel.getAllHeroes()
     }
 }
@@ -41,11 +38,11 @@ extension AllHeroesViewController: UITableViewDataSource {
     }
 }
 
-protocol RefreshData: AnyObject {
+protocol AllHeroesRefreshData: AnyObject {
     func refresh()
 }
 
-extension AllHeroesViewController: RefreshData {
+extension AllHeroesViewController: AllHeroesRefreshData {
     func refresh() {
         DispatchQueue.main.async {
             self.allHeroesTableView.reloadData()
