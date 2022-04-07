@@ -27,6 +27,9 @@
 		848C927E27FED4CF00C9664F /* IntHeroes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848C927D27FED4CF00C9664F /* IntHeroes.storyboard */; };
 		848C928427FED72E00C9664F /* StrHeroesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C928327FED72E00C9664F /* StrHeroesViewModel.swift */; };
 		848C928627FED87400C9664F /* StrHeroesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C928527FED87400C9664F /* StrHeroesCell.swift */; };
+		848C928827FEEB2E00C9664F /* AgiHeroesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C928727FEEB2E00C9664F /* AgiHeroesCell.swift */; };
+		848C928A27FEEB4500C9664F /* AgiHeroesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C928927FEEB4500C9664F /* AgiHeroesViewController.swift */; };
+		848C928C27FEEB5500C9664F /* AgiHeroesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C928B27FEEB5500C9664F /* AgiHeroesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		848C927D27FED4CF00C9664F /* IntHeroes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IntHeroes.storyboard; sourceTree = "<group>"; };
 		848C928327FED72E00C9664F /* StrHeroesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrHeroesViewModel.swift; sourceTree = "<group>"; };
 		848C928527FED87400C9664F /* StrHeroesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrHeroesCell.swift; sourceTree = "<group>"; };
+		848C928727FEEB2E00C9664F /* AgiHeroesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgiHeroesCell.swift; sourceTree = "<group>"; };
+		848C928927FEEB4500C9664F /* AgiHeroesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgiHeroesViewController.swift; sourceTree = "<group>"; };
+		848C928B27FEEB5500C9664F /* AgiHeroesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgiHeroesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +186,9 @@
 			isa = PBXGroup;
 			children = (
 				848C927B27FED4C000C9664F /* AgiHeroes.storyboard */,
+				848C928727FEEB2E00C9664F /* AgiHeroesCell.swift */,
+				848C928927FEEB4500C9664F /* AgiHeroesViewController.swift */,
+				848C928B27FEEB5500C9664F /* AgiHeroesViewModel.swift */,
 			);
 			path = AgiHeroes;
 			sourceTree = "<group>";
@@ -327,11 +336,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				848C928427FED72E00C9664F /* StrHeroesViewModel.swift in Sources */,
+				848C928827FEEB2E00C9664F /* AgiHeroesCell.swift in Sources */,
 				84732DDC27FC41A4000F28C6 /* AllHeroesViewModel.swift in Sources */,
 				84732DAC27FC3183000F28C6 /* AllHeroesViewController.swift in Sources */,
 				84732DDA27FC35BD000F28C6 /* HeroData.swift in Sources */,
+				848C928A27FEEB4500C9664F /* AgiHeroesViewController.swift in Sources */,
 				84732DD827FC34DC000F28C6 /* AllHeroesCell.swift in Sources */,
 				848C927A27FECE7F00C9664F /* StrHeroesViewController.swift in Sources */,
+				848C928C27FEEB5500C9664F /* AgiHeroesViewModel.swift in Sources */,
 				84732DE027FC487A000F28C6 /* NetworkManager.swift in Sources */,
 				848C928627FED87400C9664F /* StrHeroesCell.swift in Sources */,
 				84732DA827FC3183000F28C6 /* AppDelegate.swift in Sources */,
